@@ -2,7 +2,7 @@ name: Deploy nbdev-mkdocs generated documentation to GitHub Pages
 
 on:
   workflow_run:
-    workflows: ["CI"]
+    workflows: [CI]
     branches: [main]
     types: 
       - completed
